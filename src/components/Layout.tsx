@@ -1,7 +1,7 @@
 import { Outlet, Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
-import { Search, Home, Compass, Brain, Bookmark, BarChart3, Menu, X, ChevronRight } from 'lucide-react';
+import { Search, Home, Compass, Brain, Bookmark, BarChart3, Menu, X } from 'lucide-react';
 import { searchCareers } from '../data/careers';
 
 const navItems = [
